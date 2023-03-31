@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeaCozy</title>
+    <link rel="stylesheet" href="./resources/css/index.css">
 </head>
 
 <body>
@@ -14,10 +15,10 @@
             src="https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png?_gl=1*19l9pc7*_ga*NDA2NTk5NTM0MS4xNjc2NDcwNTcy*_ga_3LRZM6TM9L*MTY4MDE5NTI2My42LjEuMTY4MDIxMjcwMi41OC4wLjA."
             alt="TeaCozy Logo">
         <nav>
-            <ul>
-                <li><a href="#mission">Mission</a></li>
-                <li><a href="#featured-tea">Featured Tea</a></li>
-                <li><a href="#locations">Locations</a></li>
+            <ul class="nav-link">
+                <li class="nav-link"><a href="#mission">Mission</a></li>
+                <li class="nav-link"><a href="#featured-tea">Featured Tea</a></li>
+                <li class="nav-link"><a href="#locations">Locations</a></li>
             </ul>
         </nav>
     </header>
@@ -31,7 +32,7 @@
         <section id="featured-tea">
             <h2>Tea of the Month</h2>
             <h4>What's Steeping at The Tea Cozy?</h4>
-            <section class="tea-images">
+            <section class="tea-cards">
                 <article>
                     <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg?_gl=1*tn25yh*_ga*NDA2NTk5NTM0MS4xNjc2NDcwNTcy*_ga_3LRZM6TM9L*MTY4MDE5NTI2My42LjEuMTY4MDIxMjcwMi41OC4wLjA."
                         alt="Fall Berry Blitz Tea">
@@ -60,27 +61,29 @@
             </section>
         </section>
         <section id="locations">
-            <h2>Locations</h2>
-            <section class="location-cards">
-                <article class="location">
-                    <h3>Downtown</h3>
-                    <p>384 West 4th St</p>
-                    <p>Suite 108</p>
-                    <p>Portland, Maine</p>
-                </article>
-                <article class="location">
-                    <h3>East Bayside</h3>
-                    <p>3433 Phisherman's Avenue</p>
-                    <p>(Northwest Corner)</p>
-                    <p>Portland, Maine</p>
-                </article>
-                <article class="location">
-                    <h3>Oakdale</h3>
-                    <p>515 Crescent Avenue</p>
-                    <p>Second Floor</p>
-                    <p>Portland, Maine</p>
-                </article>
-            </section>
+            <div>
+                <h2>Locations</h2>
+                <section class="location-cards">
+                    <article class="location">
+                        <h3>Downtown</h3>
+                        <p>384 West 4th St</p>
+                        <p>Suite 108</p>
+                        <p>Portland, Maine</p>
+                    </article>
+                    <article class="location">
+                        <h3>East Bayside</h3>
+                        <p>3433 Phisherman's Avenue</p>
+                        <p>(Northwest Corner)</p>
+                        <p>Portland, Maine</p>
+                    </article>
+                    <article class="location">
+                        <h3>Oakdale</h3>
+                        <p>515 Crescent Avenue</p>
+                        <p>Second Floor</p>
+                        <p>Portland, Maine</p>
+                    </article>
+                </section>
+            </div>
         </section>
     </main>
     <footer>
@@ -89,7 +92,7 @@
             <h5>contact@theteacozy.com</h5>
             <h5>917-555-8904</h5>
         </section>
-        <h3>copyright The Tea Cozy 2017</h3>
+        <h5 id="copyright">copyright The Tea Cozy 2017</h5>
     </footer>
 </body>
 
