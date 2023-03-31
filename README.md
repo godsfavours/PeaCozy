@@ -1,3 +1,2 @@
-# TeaCozy
-Codecademy TeaCozy project
-showcases some css flex usage for responsive design 
+# PeaCozy
+experimenting with some css flex for responsive design 
